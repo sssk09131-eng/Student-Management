@@ -3,12 +3,13 @@ import os
 import random
 import time
 from typing import Dict, List
+from student import Student
 
 class ExamSystem:
     """
     学生信息与考场管理系统核心逻辑
     """
-    def __init__(self, filename: str = "人工智能编程语言学生名单.txt"):
+    def __init__(self, filename: str = "student.txt"):
         """
         初始化系统，加载学生名单
         :param filename: 学生名单文件路径
